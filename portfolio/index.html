@@ -25,7 +25,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -79,7 +79,7 @@
 			<div class="colorlib-footer">
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> 
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span>
 				<ul>
 					<li><a href="#"><i class="icon-facebook2"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
@@ -94,7 +94,11 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/gif.gif);">
+				   <!--	<li style="background-image: url(images/gif.gif);">-->
+					 <li id="bggradient">
+						 <div id='stars'></div>
+						 	<div id='stars2'></div>
+							<div id='stars3'></div>
 				   		<div class="overlay"></div>
 				   		<div class="container-fluid">
 				   			<div class="row">
@@ -108,6 +112,8 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					   			</div>
 					   		</div>
 				   		</div>
+							</canvas>
+							</canvas>
 				   	</li>
 				   	<!--
 				   	<li style="background-image: url(images/img_bg_2.jpg);">
@@ -139,7 +145,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 									<div class="about-desc">
 										<span class="heading-meta">A propos de moi</span>
 										<h2 class="colorlib-heading">Qui suis-je?</h2>
-										<p><strong>Je m'appelle Emilie Couléard</strong> J'ai 21 ans et je vis
+										<p><strong>Je m'appelle Emilie Couléard</strong> J'ai 22 ans et je vis
 											à Paris. Spécialisée dans les nouvelles technologies, je m'intéresse plus particulièrement au domaine de la sécurité informatique.</p>
 										<p>Mon objectif est d'être un profil polyvalent qui alliera aussi bien la sécurité que l'informatique en général (developpement, web, base de données, système et réseaux). </p>
 									</div>
@@ -161,8 +167,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
 									<div class="services color-3">
 										<span class="icon2"><i class="icon-device-laptop"></i></span>
-										<h3>3. Progra-
-										mmation</h3>
+										<h3>3. Programmation</h3>
 									</div>
 								</div>
 								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
@@ -189,7 +194,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 			</section>
 
 
-			
+
 			<section class="colorlib-services" data-section="services">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -199,7 +204,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 						</div>
 					</div>
 					<div class="row row-pt-md">
-					
+
 						<div class="col-md-4 text-center animate-box">
 							<div class="services color-4">
 								<span class="icon">
@@ -271,7 +276,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				</div>
 			</section>
 
-			
+
 
 
 			<section class="colorlib-skills" data-section="skills">
@@ -336,30 +341,6 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
 								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
 								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>LDAP</h3>
-								<p>Active Directory</p>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Gestion de projets</h3>
-								<p>Compétences sociales</p>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
 								  	</div>
 								</div>
 							</div>
@@ -439,7 +420,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 									        <div class="panel-body">
 									        	  <div class="col-md-8">
 									            <p>Lycée privé</p>
-									            <p>Spé: SVT</p>	
+									            <p>Spé: SVT</p>
 									        </div>
 									           <div class="col-md-3">
 										      			<img width="200px" src="images/stlouis.png">
@@ -465,32 +446,29 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
-						 
-						
-						 
-						 
-						 
+
+
+
+
+
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-
-					               <img alt="logo sanofi" src="images/Sanofi.png" width="200px">
-					               <p></p>
-					                  <h2><a href="#">Protection de l'Information & Cybercrime - Corporate Security (alternance) - Paris </a> <br><span> 2017-2019 (2 ans)</span></h2>
-					                  <ul>
-					                  	<li>La création de supports de formation aux différents outils de protection de l’information</li>
-									    <li>Le développement d’outils ou d’applications de démonstration (hacking) pour ces formations en fonction des besoins et thèmes de sensibilisation à la protection de l’information</li>
-									    <li>La création de supports de communication sur les risques résiduels</li>
-									    <li>Participation au traitement et à la résolution des incidents et alertes</li>
-									    <li>Actions de sensibilisation, training, participation à élaboration de campagnes…</li>
-									    <li>PowerShell, macro VBA, script VBScript</li>
-									</ul>
-					               </div>
+ 												<div class="timeline-icon color-2">
+					              	<i class="icon-pen2"></i>
+					              </div>
+ 												<div class="timeline-label">
+													<img alt="logo sanofi" src="images/Sanofi.png" width="200px">
+													<p></p>
+					                <h2><a href="#">Protection de l'Information & Cybercrime - Corporate Security (alternance) - Paris </a> <br><span> 2017-2019 (2 ans)</span></h2>
+													<ul>
+					                	<li>La création de supports de formation aux différents outils de protection de l’information</li>
+									    			<li>Le développement d’outils ou d’applications de démonstration (hacking) pour ces formations en fonction des besoins et thèmes de sensibilisation à la protection de l’information</li>
+									    			<li>La création de supports de communication sur les risques résiduels</li>
+									    			<li>Participation au traitement et à la résolution des incidents et alertes</li>
+									    			<li>Actions de sensibilisation, training, participation à élaboration de campagnes…</li>
+									    			<li>PowerShell, macro VBA, script VBScript</li>
+													</ul>
+					              </div>
 					            </div>
 					         </article>
 
@@ -501,10 +479,10 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<img alt="logo ceritar" src="images/ceritar.jpg" width="200px">
-					               	<p></p>
-					               	<h2><a href="#">Intégrateur Web (stage) - Montréal </a> <span><br>2017 (3 mois) </span></h2>
-					                     <ul>
+													 <img alt="logo ceritar" src="images/ceritar.png" width="200px">
+													 		<p></p>
+					               	<h2><a href="">Intégrateur Web (stage) - Montréal </a> <span><br>2017 (3 mois) </span></h2>
+														   <ul>
 					                  	<li>Programmation front end d’application web de type ERP/TMS/WMS en HTML CSS avec le framework Telerik </li>
 									    <li>Programmation back end en VB. NET d’application web de type ERP/TMS/WMS en ASP .NET</li>
 									    <li>Rédaction de dossier de programmation </li>
@@ -818,7 +796,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 										</div>
 									</form>
 								</div>
-								
+
 							</div>
 						</div>
 					</div>
@@ -845,11 +823,235 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	
-	
+
+
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script>
+	/* because me lazy */
+Object.getOwnPropertyNames(Math).map(function(p) {
+	window[p] = Math[p];
+});
 
+var HEX_CRAD = 32,
+		HEX_BG = '#171717',
+		HEX_HL = '#2a2a2a',
+		HEX_HLW = 2,
+		HEX_GAP = 4,
+		NEON_PALETE = [
+			'#cb3301', '#ff0066',
+			'#ff6666', '#feff99',
+			'#ffff67', '#ccff66',
+			'#99fe00', '#fe99ff',
+			'#ff99cb', '#fe349a',
+			'#cc99fe', '#6599ff',
+			'#00ccff', '#ffffff'
+		],
+		T_SWITCH = 64,
+
+		unit_x = 3*HEX_CRAD + HEX_GAP*sqrt(3),
+		unit_y = HEX_CRAD*sqrt(3)*.5 + .5*HEX_GAP,
+		off_x = 1.5*HEX_CRAD + HEX_GAP*sqrt(3)*.5,
+
+		/* extract a work palette */
+		wp = NEON_PALETE.map(function(c) {
+			var num = parseInt(c.replace('#', ''), 16);
+
+			return {
+				'r': num >> 16 & 0xFF,
+				'g': num >> 8 & 0xFF,
+				'b': num & 0xFF
+			};
+		}),
+		nwp = wp.length, csi = 0,
+
+		f = 1/T_SWITCH,
+
+		c = document.querySelectorAll('canvas'),
+		n = c.length, w, h, _min,
+		ctx = [],
+		grid, source = null,
+		t = 0, request_id = null;
+
+var GridItem = function(x, y) {
+	this.x = x || 0;
+	this.y = y || 0;
+	this.points = { 'hex': [], 'hl': [] };
+
+	this.init = function() {
+		var x, y, a, ba = PI/3,
+				ri = HEX_CRAD - .5*HEX_HLW;
+
+		for(var i = 0; i < 6; i++) {
+			a = i*ba;
+			x = this.x + HEX_CRAD*cos(a);
+			y = this.y + HEX_CRAD*sin(a);
+
+			this.points.hex.push({
+				'x': x,
+				'y': y
+			});
+
+			if(i > 2) {
+				x = this.x + ri*cos(a);
+				y = this.y + ri*sin(a);
+
+				this.points.hl.push({
+					'x': x,
+					'y': y
+				});
+			}
+		}
+	};
+
+	this.draw  = function(ct) {
+		for(var i = 0; i < 6; i++) {
+			ct[(i === 0?'move':'line')+ 'To'](
+				this.points.hex[i].x,
+				this.points.hex[i].y
+			);
+		}
+	};
+
+	this.highlight = function(ct) {
+		for(var i = 0; i < 3; i++) {
+			ct[(i === 0?'move':'line')+ 'To'](
+				this.points.hl[i].x,
+				this.points.hl[i].y
+			);
+		}
+	};
+
+	this.init();
+};
+
+var Grid = function(rows, cols) {
+	this.cols = cols || 16;
+	this.rows = rows || 16;
+	this.items = [];
+	this.n = this.items.length;
+
+	this.init = function() {
+		var x, y;
+
+		for(var row = 0; row < this.rows; row++) {
+			y = row*unit_y;
+
+			for(var col = 0; col < this.cols; col++) {
+				x = ((row%2 == 0)?0:off_x) + col*unit_x;
+
+				this.items.push(new GridItem(x, y));
+			}
+		}
+
+		this.n = this.items.length;
+	};
+
+	this.draw = function(ct) {
+		ct.fillStyle = HEX_BG;
+		ct.beginPath();
+
+		for(var i = 0; i < this.n; i++) {
+			this.items[i].draw(ct);
+		}
+
+		ct.closePath();
+		ct.fill();
+
+		ct.strokeStyle = HEX_HL;
+		ct.beginPath();
+
+		for(var i = 0; i < this.n; i++) {
+			this.items[i].highlight(ct);
+		}
+
+		ct.closePath();
+		ct.stroke();
+	};
+
+	this.init();
+};
+
+var init = function() {
+	var s = getComputedStyle(c[0]),
+			rows, cols;
+
+	w = ~~s.width.split('px')[0];
+	h = ~~s.height.split('px')[0];
+	_min = .75*min(w, h);
+
+	rows = ~~(h/unit_y) + 2;
+	cols = ~~(w/unit_x) + 2;
+
+	for(var i = 0; i < n; i++) {
+		c[i].width = w;
+		c[i].height = h;
+		ctx[i] = c[i].getContext('2d');
+	}
+
+	grid = new Grid(rows, cols);
+	grid.draw(ctx[1]);
+
+	if(!source) {
+		source = { 'x': ~~(w/2), 'y': ~~(h/2) };
+	}
+
+	neon();
+};
+
+var neon = function() {
+	var k = (t%T_SWITCH)*f,
+			rgb = {
+				'r': ~~(wp[csi].r*(1 - k) +
+						 wp[(csi + 1)%nwp].r*k),
+				'g': ~~(wp[csi].g*(1 - k) +
+						 wp[(csi + 1)%nwp].g*k),
+				'b': ~~(wp[csi].b*(1 - k) +
+						 wp[(csi + 1)%nwp].b*k)
+			},
+			rgb_str = 'rgb(' + rgb.r + ',' + rgb.g + ',' + rgb.b + ')',
+			light = ctx[0].createRadialGradient(
+				source.x, source.y, 0,
+				source.x, source.y, .875*_min
+			), stp;
+
+	stp = .5 - .5*sin(7*t*f)*cos(5*t*f)*sin(3*t*f);
+
+	light.addColorStop(0, rgb_str);
+	light.addColorStop(stp, 'rgba(0,0,0,.03)');
+
+	fillBackground('rgba(0,0,0,.02)');
+	fillBackground(light);
+
+	t++;
+
+	if(t%T_SWITCH === 0) {
+		csi++;
+
+		if(csi === nwp) {
+			csi = 0;
+			t = 0;
+		}
+	}
+
+	request_id = requestAnimationFrame(neon);
+};
+
+var fillBackground = function(bg_fill) {
+	ctx[0].fillStyle = bg_fill;
+	ctx[0].beginPath();
+	ctx[0].rect(0, 0, w, h);
+	ctx[0].closePath();
+	ctx[0].fill();
+};
+
+init();
+
+addEventListener('resize', init, false);
+
+addEventListener('mousemove', function(e) {
+	source = { 'x': e.clientX, 'y': e.clientY };
+}, false);
+	</script>
 	</body>
 </html>
-
